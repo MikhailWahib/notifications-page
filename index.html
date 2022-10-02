@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Notifications page</title>
+
+</head>
+  <body>
+    
+    <section>
+      <div class="container">
+        <div class="headline">
+          <div id="notifications-title">
+            <h3>Notifications</h3>
+            <p id="notifications-count">7</p>
+          </div>
+          <button id="mark-all">Mark all as read</button>
+        </div>
+        <div class="notifications-container">
+
+          <div class="notification-card new-notification">
+            <a href="#">
+              <div class="img">  
+                <img src="./assets/images/avatar-mark-webber.webp" class="avatar"/>
+              </div>
+              <div class="notification-text">
+                <p><a href="#" class="bold-text1">Mark Webber </a> reacted to your recent post <a href="#" class="bold-text2">My first tournament today!</a><span class="circle"></span></p>
+                <p class="time-text">1m ago</p>
+              </div>
+            </a>
+          </div>
+          
+          <div class="notification-card new-notification">
+            <a href="#">
+              <div class="img">  
+                <img src="./assets/images/avatar-angela-gray.webp" class="avatar"/>
+              </div>
+              <div class="notification-text">
+                <p><a href="#" class="bold-text1">Angela Gray </a> followed you<span class="circle"></span></p>
+                <p class="time-text">5m ago</p>
+              </div>
+            </a>
+          </div>
+
+          <div class="notification-card new-notification">
+            <a href="#">
+              <div class="img">  
+                <img src="./assets/images/avatar-jacob-thompson.webp" class="avatar"/>
+              </div>
+              <div class="notification-text">
+                <p><a href="#" class="bold-text1">Jacob Thompson </a> has joined your group <a href="#" class="bold-text3">Chess Club</a><span class="circle"></span></p>
+                <p class="time-text">1 day ago</p>
+              </div>
+            </a>
+          </div>
+
+          <div class="notification-card new-notification">
+            <a href="#">
+              <div class="img">  
+                <img src="./assets/images/avatar-rizky-hasanuddin.webp" class="avatar"/>
+              </div>
+              <div class="notification-text">
+                <p><a href="#" class="bold-text1">Rizky Hasanuddin </a> sent you a private message <span class="circle"></span></p>
+                <p class="time-text">5 days ago</p>
+                <div class="message"><a href="#">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis non rem excepturi minima libero sed labore in fugit est, aut eius natus dicta nam ex?</a>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div class="notification-card new-notification">
+            <a href="#">
+              <div class="img">  
+                <img src="./assets/images/avatar-kimberly-smith.webp" class="avatar"/>
+              </div>
+              <div class="notification-text">
+                <p><a href="#" class="bold-text1">Kimberly smith </a> commented on your picture<span class="circle"></span></p>
+                <p class="time-text">1 week ago</p>
+              </div>
+              <div class="noti-img">
+                <a href="#"><img src="./assets/images/image-chess.webp"></a>
+              </div>
+            </a>
+          </div>
+
+          <div class="notification-card new-notification">
+            <a href="#">
+              <div class="img">  
+                <img src="./assets/images/avatar-nathan-peterson.webp" class="avatar"/>
+              </div>
+              <div class="notification-text">
+                <p><a href="#" class="bold-text1">Nasan Peterson </a> reacted to your recent post <a href="#" class="bold-text2">5 end-game strategies to increase your win rate</a><span class="circle"></span></p>
+                <p class="time-text">2 weeks ago</p>
+              </div>
+            </a>
+          </div>
+
+          <div class="notification-card new-notification">
+            <a href="#">
+              <div class="img">  
+                <img src="./assets/images/avatar-anna-kim.webp" class="avatar"/>
+              </div>
+              <div class="notification-text">
+                <p><span><a href="#" class="bold-text1">Anna Kim </a></span> left the group <a href="#" class="bold-text3">Chess Club</a><span class="circle"></span></p>
+                <p class="time-text">2 weeks ago</p>
+              </div>
+            </a>
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <script src="./app.js"></script>
+  </body>
+</html>

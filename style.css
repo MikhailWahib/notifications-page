@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;700&display=swap');
+
+*, html, body {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    background-color: hsl(210, 60%, 98%);
+    font-size: 16px;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    background-color: #fff;
+    max-width: 40vw;
+    box-shadow: rgba(100, 100, 111, 0.1) 0px 7px 29px 0px;
+    padding: 25px 20px;
+    border-radius: 7px;
+}
+
+.headline {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-bottom: 25px;
+}
+
+#notifications-title {
+    display: flex;
+}
+
+#notifications-count {
+    background-color:  hsl(219, 85%, 26%);
+    color: #fff;
+    font-size: .8em;
+    font-weight: 700;
+    margin-left: 10px;
+    padding: 3px 10px;
+    border-radius: 5px;
+}
+
+#mark-all {
+    background-color: transparent;
+    border: none;
+    font-size: .85em;
+    opacity: .75;
+}
+
+#mark-all:hover {
+    color: hsl(219, 85%, 26%);
+}
+
+.notification-card {
+    display: flex;
+    flex-direction: row;
+    margin: 10px 0px;
+    padding: 10px 15px;
+    border-radius: 10px;
+    font-size: .88em;
+}
+
+.notification-card:hover {
+    background-color: hsl(211, 68%, 94%);
+}
+
+.new-notification {
+    background-color: hsl(210, 60%, 98%);
+}
+
+.time-text {
+    font-size: .85em;
+    opacity: .75;
+    margin-top: 2px;
+}
+
+.avatar {
+    width: 35px;
+    margin-right: 20px;
+}
+
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
+.bold-text1 {
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.bold-text1:hover {
+    color: hsl(219, 85%, 26%);
+}
+
+.bold-text2 {
+    font-weight: 700;
+    opacity: .78;
+}
+
+.bold-text2:hover {
+    color: hsl(219, 85%, 26%);
+}
+
+.bold-text3 {
+    font-weight: 700;
+    color: hsl(219, 85%, 26%);
+}
+
+.circle {
+    display: inline-block;
+    background: hsl(1, 90%, 64%);
+    border-radius: 50%;
+    width: 6px;
+    height: 6px;
+    margin-left: 7px;
+}
+
+.message {
+    border: 1px solid rgba(100, 100, 111, 0.2);
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 7px;
+}
+
+.message:hover {
+    background-color: hsl(210, 60%, 98%);
+    border: 1px solid hsl(210, 60%, 98%);
+}
+
+.noti-img {
+    margin-left: auto;
+}
+
+.noti-img img {
+    width: 35px;
+}
+
+@media (max-width: 1050px) {
+    body {
+        font-size: 13px;
+    }
+
+    .container {
+        max-width: 95vw;
+        max-height: auto;
+    }
+}
