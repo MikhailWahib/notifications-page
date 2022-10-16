@@ -27,7 +27,7 @@ Users should be able to:
 
 ![](./design/desktop-design.jpg)
 
-- [Live Site Link](https://mikhailwahib.github.io/notifications-page/)
+## [Live Site Link](https://mikhailwahib.github.io/notifications-page/)
 
 
 ## My process
