@@ -2,7 +2,6 @@ const notificationsArr = document.querySelectorAll('.notification-card')
 const circlesArr = document.querySelectorAll('.circle')
 const markAllBtn = document.querySelector('#mark-all')
 let notificationsCount = document.querySelector('#notifications-count').innerText
-console.log(notificationsCount);
 
 for(let i = 0 ; i < notificationsArr.length; i++) {
     let isActive = true
@@ -26,4 +25,3 @@ for(let i = 0 ; i < notificationsArr.length; i++) {
         }
     })
 }
-
